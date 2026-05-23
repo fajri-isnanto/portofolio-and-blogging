@@ -10,12 +10,24 @@ import icon from "astro-icon";
 
 import sitemap from "@astrojs/sitemap";
 
+import pagefind from 'astro-pagefind';
+
 // https://astro.build/config
 export default defineConfig({
     site: 'https://simple-portfolio.vicbox.dev/',
-    integrations: [mdx(), react(), tailwind({
+    integrations: [
+        mdx(), 
+        react(), 
+        tailwind({
         applyBaseStyles: false,
-    }), icon(), sitemap()],
+    }), icon(), 
+        sitemap(), 
+        pagefind({
+      //      indexOnly: false,           // tambahkan ini
+      //      bundle: true
+        }), 
+
+    ],
     markdown: {
         shikiConfig: {
             theme: 'plastic',

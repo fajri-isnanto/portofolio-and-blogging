@@ -1,42 +1,42 @@
 export const SITE = {
     website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
-    title: "Simple Portfolio",
-    description: "A simple but beautiful portfolio created with Astro",
-    tags: ["portfolio", "Resume cv", "Astro"],
+    title: "Fajri Isnanto | Porto",
+    description: "Personal portfolio and technical blog for Fajri Isnanto, Platform Operations Engineer specializing in Red Hat OpenShift and Linux infrastructure.",
+    tags: ["portfolio", "blog", "red hat", "openshift", "linux", "devops"],
     ogImage: "/og-image.webp",
-    logo: "logo",
-    logoText: "Portfolio",
+    logo: "/logo.png",
+    logoText: "Fajri Isnanto",
     lang: "en",
     favicon: "/favicon.png",
     repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
-    profile: "https://victoralvarado.dev/",
+    author: "Fajri Isnanto",
+    profile: "https://www.linkedin.com/in/fajri-isnanto-dev/",
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp2.png",
+    name: "Fajri Isnanto",
+    profession: "Platform Operations Engineer | Red Hat OpenShift",
+    profileImage: "fajri-isnanto.png",
     profileFacts: [
         {
-            value: 10,
+            value: 4,
             description: "Years of Experience"
         },
         {
-            value: 5,
-            description: "Completed Projects"
+            value: 3,
+            description: "Red Hat Certifications"
         },
         {
-            value: 4,
-            description: "Satisfied Clients"
+            value: 7,
+            description: "Infrastructure Projects"
         }
     ],
     contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
-        resumeDoc: "resume.pdf",
+        email: "fajriisnanto1011@gmail.com",
+        linkedin: "https://www.linkedin.com/in/fajri-isnanto-dev/",
+        resumeDoc: "fajri-isnanto-cv.pdf",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+    aboutMe: "Certified Red Hat engineer with practical experience managing Linux platforms, Red Hat Enterprise Linux, Red Hat Satellite, and OpenShift environments. I focus on platform operations, system hardening, automation, troubleshooting, CI/CD support, and reliable infrastructure delivery for production systems.",
 }
 
 export const SOCIALS = [
@@ -44,7 +44,7 @@ export const SOCIALS = [
         name: "Twitter",
         url: "https://twitter.com/vicbox.dev",
         icon: "twitter-x-fill",
-        show: true
+        show: false
     },
     {
         name: "Facebook",
@@ -56,11 +56,11 @@ export const SOCIALS = [
         name: "Instagram",
         url: "https://www.instagram.com/vicbox.dev",
         icon: "instagram-fill",
-        show: true
+        show: false
     },
     {
         name: "Youtube",
-        url: "https://www.youtube.com/vicbox.dev",
+        url: "https://www.youtube.com/@fajriisnanto2457",
         icon: "youtube-fill",
         show: true
     },
@@ -72,8 +72,14 @@ export const SOCIALS = [
     },
     {
         name: "GitHub",
-        url: "https://github.com/vicbox.dev",
+        url: "https://github.com/fajri-isnanto/",
         icon: "github-fill",
+        show: true
+    },
+    {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/fajri-isnanto-dev/",
+        icon: "link",
         show: true
     }
 ]

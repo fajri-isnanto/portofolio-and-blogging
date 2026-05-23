@@ -6,24 +6,34 @@ interface HardSkill {
 
 const hardSkills: HardSkill[] = [
   {
-    name: "AstroJs",
-    description: "My favorite static site generator for building modern websites",
-    icon: "astro_dark"
+    name: "Red Hat Enterprise Linux",
+    description: "RHEL administration, patching, LVM, firewall configuration, user management, system hardening, and troubleshooting.",
+    icon: "tools-fill"
   },
   {
-    name: "NextJs",
-    description: "My favorite React framework for building modern web apps",
-    icon: "nextjs_icon_dark"
+    name: "Red Hat OpenShift",
+    description: "OpenShift cluster operations, node labeling, taints and tolerations, Local Storage Operator, routes, certificates, and platform updates.",
+    icon: "group-fill"
   },
   {
-    name: "NodeJs",
-    description: "I've been using NodeJs for backend development since 2018",
-    icon: "nodejs"
+    name: "Automation & Scripting",
+    description: "Ansible playbooks and Bash scripts for Linux hardening, operational automation, and repeatable infrastructure tasks.",
+    icon: "time-fill"
   },
   {
-    name: "MongoDB",
-    description: "My favorite database for modern apps",
-    icon: "mongodb"
+    name: "CI/CD & Containers",
+    description: "Jenkins, GitLab CI, GitLab Runner, Docker, Docker Compose, and application deployment workflows.",
+    icon: "github-fill"
+  },
+  {
+    name: "Monitoring & Logging",
+    description: "Operational experience with Zabbix, ELK Stack, Prometheus, Grafana, and production health checks.",
+    icon: "time-line"
+  },
+  {
+    name: "Red Hat Satellite",
+    description: "Subscription management, repository updates, patching, and managed RHEL lifecycle operations.",
+    icon: "link"
   }
 ];
 

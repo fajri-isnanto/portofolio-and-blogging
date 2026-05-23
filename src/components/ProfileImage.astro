@@ -22,8 +22,22 @@ if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: 
 ---
 
 <Image
-        class="rounded-full w-[130px] md:w-[140px] object-cover"
+        class="profile-avatar rounded-full object-cover"
         src={images[imagePath]()}
         alt="profile avatar"
         loading="eager"
 />
+
+<style>
+    .profile-avatar {
+        width: 130px;
+        height: 130px;
+    }
+
+    @media (min-width: 768px) {
+        .profile-avatar {
+            width: 140px;
+            height: 140px;
+        }
+    }
+</style>

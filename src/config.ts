@@ -5,7 +5,7 @@ export const SITE = {
     tags: ["portfolio", "blog", "red hat", "openshift", "linux", "devops"],
     ogImage: "/og-image.webp",
     logo: "/logo.png",
-    logoText: "Fajri Isnanto",
+    logoText: "Knowledge must be free.",
     lang: "en",
     favicon: "/favicon.png",
     repository: "https://github.com/vito8916/simple-portfolio.git",
@@ -16,7 +16,7 @@ export const SITE = {
 export const ME = {
     name: "Fajri Isnanto",
     profession: "Platform Operations Engineer | Red Hat OpenShift",
-    profileImage: "fajri-isnanto.png",
+    profileImage: "fajri-isnanto-avatar.png",
     profileFacts: [
         {
             value: 4,
@@ -79,7 +79,7 @@ export const SOCIALS = [
     {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/fajri-isnanto-dev/",
-        icon: "link",
+        icon: "linkedin-fill",
         show: true
     }
 ]

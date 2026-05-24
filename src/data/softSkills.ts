@@ -6,19 +6,19 @@ interface SoftSkill {
 const softSkills: SoftSkill[] = [
     {
         name: "Troubleshooting",
-        icon: "tools-fill"
+        icon: "troubleshooting"
     },
     {
-        name: "Platform Operations",
-        icon: "group-fill"
+        name: "Technical Presentation",
+        icon: "presentation"
     },
     {
         name: "Communication",
-        icon: "message-2-fill"
+        icon: "communication"
     },
     {
         name: "Documentation",
-        icon: "time-fill"
+        icon: "documentation"
     }
 ];
 

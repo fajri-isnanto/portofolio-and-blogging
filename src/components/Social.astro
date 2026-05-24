@@ -7,20 +7,38 @@ import {SOCIALS} from '@/config';
 
 ---
 
-<div class={'flex gap-2 md:gap-4'}>
+<div class="flex gap-2 md:gap-4">
     {
         SOCIALS.map((networkS) => (
             networkS.show && (
                     <a
-                            class={`${networkS.name} text-xl md:text-2xl text-silver-n500 hover:text-silver-n900 rounded-md p-2 duration-100 hover:bg-neutral-200 dark:hover:bg-n700/40`}
+                            class={`${networkS.name} social-link rounded-md p-2 text-n700 duration-100 hover:bg-neutral-200 hover:text-n900 dark:text-n200 dark:hover:bg-n700/40 dark:hover:text-white`}
                             href={networkS.url}
                             target="_blank"
+                            rel="noreferrer"
                             aria-label={networkS.name + "-link"}
                     >
-                        <Icon name={networkS.icon} class="text-n500 dark:text-n200"/>
+                        <Icon name={networkS.icon} class="social-icon"/>
                     </a>
             )
         ))
     }
 </div>
+
+<style>
+    .social-link :global(svg) {
+        width: 24px;
+        height: 24px;
+        display: block;
+        color: currentColor;
+        fill: currentColor;
+    }
+
+    @media (min-width: 768px) {
+        .social-link :global(svg) {
+            width: 28px;
+            height: 28px;
+        }
+    }
+</style>
 

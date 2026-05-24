@@ -18,15 +18,15 @@ const  education: Education[] = [
         description: "GPA 3.61 / 4.00. Final project: Data Visualization Dashboard for Hoax Detection using Laravel, MySQL, and Ubuntu Server.",
         currentUni: false,
     },
-    {
-        title: "Computer and Network Engineering",
-        startDate: "2015-07-01",
-        endDate: "2018-06-01",
-        school: "SMK SWADHIPA 2 Natar",
-        location: "Lampung, Indonesia",
-        description: "Vocational education focused on computer systems, networking fundamentals, and infrastructure operations.",
-        currentUni: false,
-    },
+    // {
+    //     title: "Computer and Network Engineering",
+    //     startDate: "2015-07-01",
+    //     endDate: "2018-06-01",
+    //     school: "SMK SWADHIPA 2 Natar",
+    //     location: "Lampung, Indonesia",
+    //     description: "Vocational education focused on computer systems, networking fundamentals, and infrastructure operations.",
+    //     currentUni: false,
+    // },
 ];
 
 export default education;
